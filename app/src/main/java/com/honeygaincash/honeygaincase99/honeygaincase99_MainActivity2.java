@@ -38,41 +38,12 @@ public class honeygaincase99_MainActivity2 extends AppCompatActivity {
 
 
         if (savedInstanceState == null) {
-
             FragmentManager fragmentManager = getSupportFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.add(R.id.fragmentContainer1, new honeygaincase99_WebViewFragment1());
-            fragmentTransaction.commit();
-        }
-
-        if (savedInstanceState == null) {
-
-            FragmentManager fragmentManager = getSupportFragmentManager();
-            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.add(R.id.fragmentContainer2, new honeygaincase99_WebViewFragment1());
-            fragmentTransaction.commit();
-        }
-
-        if (savedInstanceState == null) {
-
-            FragmentManager fragmentManager = getSupportFragmentManager();
-            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.add(R.id.fragmentContainer3, new honeygaincase99_WebViewFragment1());
-            fragmentTransaction.commit();
-        }
-
-        if (savedInstanceState == null) {
-
-            FragmentManager fragmentManager = getSupportFragmentManager();
-            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.add(R.id.fragmentContainer4, new honeygaincase99_WebViewFragment1());
-            fragmentTransaction.commit();
-        }
-
-        if (savedInstanceState == null) {
-
-            FragmentManager fragmentManager = getSupportFragmentManager();
-            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.add(R.id.fragmentContainer5, new honeygaincase99_WebViewFragment1());
             fragmentTransaction.commit();
         }
